@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lora");
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -11448,4 +11449,50 @@ iframe.uk-cover {
 .me-cannotplay span {
   padding: 15px;
   display: block;
+}
+
+@font-face {
+  font-family: 'ghostbusters';
+  src: url(https://abrown13.github.io/ghostbusters/fonts/ghostbus.ttf);
+}
+
+html {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'ghostbusters';
+  font-size: 5em;
+  margin-top: 20px;
+  color: white;
+}
+
+.char3 {
+  margin: -2px;
+}
+
+body {
+  font-family: 'Lora', serif;
+  color: lightgray;
+}
+
+img {
+  width: 10%;
+  height: 10%;
+}
+
+.mejs__time-current {
+  background: #23b63c;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #23b63c;
+}
+
+a:hover {
+  color: #23b63c;
 }

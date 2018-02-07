@@ -1,25 +1,51 @@
 @import "uikit.min";
 @import "mediaplayer.min";
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 
-// Headline
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+@font-face {
+  font-family: 'ghostbusters';
+  src: url(https://abrown13.github.io/ghostbusters/fonts/ghostbus.ttf);
+}
+
+
+html {
+  background-color: black;
+}
+
 h1 {
-  text-transform: uppercase;
+  font-family: 'ghostbusters';
+  font-size: 5em;
+  margin-top: 20px;
+  color: white;
 }
 
-.char1 {
-  color: orange;
-  letter-spacing: 4px;
+.char3 {
+  margin: -2px;
 }
 
-.char7 {
-  color: green;
+body {
+  font-family: 'Lora', serif;
+  color: lightgray;
 }
 
-// Body
-// inline, pounds, dots, elements
-// score: 0, 0, 0, 2
-body h1,
-article p{
-  font-family: 'Lobster Two', cursive;
+img {
+  width: 10%;
+  height: 10%;
+}
+
+.mejs__time-current {
+  background: #23b63c;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #23b63c;
+}
+
+a:hover {
+  color: #23b63c;
 }
