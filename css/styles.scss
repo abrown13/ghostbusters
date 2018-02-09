@@ -1,45 +1,48 @@
 @import "uikit.min";
 @import "mediaplayer.min";
 
-@import url('https://fonts.googleapis.com/css?family=Lora');
-
-@font-face {
-  font-family: 'ghostbusters';
-  src: url(https://abrown13.github.io/ghostbusters/fonts/ghostbus.ttf);
-}
-
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto+Condensed');
 
 html {
   background-color: black;
 }
 
+// head
+
 h1 {
-  font-family: 'ghostbusters';
+  font-family: 'Lora', serif;
   font-size: 5em;
-  margin-top: 20px;
+  margin-top: 30px;
   color: white;
+  text-transform: uppercase;
+}
+
+header h1 {
+  text-align: center;
 }
 
 .char3 {
-  margin: -2px;
+  background: url(/img/gb-logo.png) no-repeat;
+  display: inline-block;
+  width: 116px;
+  height: 100px;
+  
+  position: relative;
+  top: 20px;
 }
 
-body {
-  font-family: 'Lora', serif;
-  color: lightgray;
-}
 
-img {
-  width: 10%;
-  height: 10%;
-}
+// trailer
 
 .mejs__time-current {
   background: #23b63c;
 }
 
-ul {
-  list-style-type: none;
+// body
+
+body {
+  font-family: 'Lora', serif;
+  color: lightgray;
 }
 
 a {
@@ -48,4 +51,47 @@ a {
 
 a:hover {
   color: #23b63c;
+}
+
+.quote {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #23b63c;
+}
+
+.quote:hover {
+  filter: blur(5px);
+}
+
+// cast
+
+.cast {
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.names {
+  background: rgba(0,0,0,.5);
+  transition: margin-top .5s ease-in-out;
+  position: relative;
+  text-align: center;
+}
+
+.cast:hover .names {
+  padding: 1em;
+  margin-top: -50px;  
+} 
+
+.weaver {
+  font-size: 14px;
+}
+
+// footer
+
+footer {
+  font-size: 12px;
 }
