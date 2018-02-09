@@ -11468,7 +11468,7 @@ header h1 {
 }
 
 .char3 {
-  background: url(/img/gb-logo.png) no-repeat;
+  background: url(../img/gb-logo.png) no-repeat;
   display: inline-block;
   width: 116px;
   height: 100px;
